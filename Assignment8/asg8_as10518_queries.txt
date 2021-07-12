@@ -1,0 +1,19 @@
+Asher Sebban - As10518
+Professor Engel
+Database Design
+Assignment 8
+
+1. db.zips.count({state:"CA”});
+
+2. db.zips.find({state:"GA",pop:{$gt:0}},{loc:0,state:0}).sort({pop:1}).limit(5);
+
+3. db.zips.find({city:"BRONX"},{loc:0,city:0,state:0}).sort({pop:1}).limit(3);
+
+4. db.zips.find({state:{$nin:["AK","PR","HI"]}}).count();
+
+5. db.zips.find({state:{$in:["NY","NJ","CT"]}}).count();
+
+6. 
+db.zips.distinct("state");
+db.zips.find({pop:0});
+db.zips.aggregate([ {$match: {} }, {$group: {_id:"$state",pop:{$sum:"$pop"}}},{$sort:{pop:-1}} ]);

@@ -1,0 +1,462 @@
+White	Black	[:]	Victory	Winner	+/-	ECO	Opening System
+1696	1563	70	mate	black	133	A00	Anderssen Opening
+1964	1813	38	resign	black	151	A57	Benko Gambit Declined |  Main Line
+1725	1457	72	resign	black	268	A56	Benoni Defense
+1693	1591	73	resign	black	102	A43	Benoni Defense: Benoni Gambit |  Schlenker Defense
+1881	1518	84	resign	black	363	A56	Benoni Defense: Czech Benoni Defense
+1631	1531	77	resign	black	100	A02	Bird Opening
+1915	1807	66	mate	black	108	A03	Bird Opening: Dutch Variation
+1697	1566	70	resign	black	131	C24	Bishop's Opening: Berlin Defense
+1629	1517	26	mate	black	112	C20	Bishop's Opening: Boi Variation
+1785	1432	50	resign	black	353	C24	Bishop's Opening: Ponziani Gambit
+2149	1933	60	resign	black	216	A52	Budapest Defense: Adler Variation
+1873	1574	16	mate	black	299	A52	Budapest Defense: Adler Variation
+1830	1694	84	resign	black	136	B10	Caro-Kann Defense
+1631	1500	44	resign	black	131	B10	Caro-Kann Defense
+2262	2111	64	resign	black	151	B19	Caro-Kann Defense: Classical |  Spassky Variation
+2105	1929	160	resign	black	176	B13	Caro-Kann Defense: Exchange Variation
+1776	1383	82	mate	black	393	B10	Caro-Kann Defense: Masi Variation
+1996	1886	144	resign	black	110	B14	Caro-Kann Defense: Panov Attack
+1749	1404	18	resign	black	345	C21	Center Game #2
+1997	1480	70	mate	black	517	C22	Center Game: Paulsen Attack Variation
+1749	1404	72	resign	black	345	C22	Center Game: Paulsen Attack Variation
+1807	1687	18	resign	black	120	D05	Colle System
+1786	1609	40	resign	black	177	D05	Colle System
+1727	1590	36	resign	black	137	C21	Danish Gambit
+1839	1632	24	resign	black	207	A80	Dutch Defense
+2163	2012	26	resign	black	151	A80	Dutch Defense
+1997	1500	54	resign	black	497	A82	Dutch Defense: Staunton Gambit Accepted
+1660	1549	119	resign	black	111	A49	East Indian Defense
+2066	1937	104	resign	black	129	A49	East Indian Defense
+1822	1588	60	mate	black	234	C40	Elephant Gambit
+1810	1495	20	resign	black	315	C40	Elephant Gambit: Paulsen Countergambit
+2279	1826	52	resign	black	453	A10	English Opening: Anglo-Dutch Defense
+1769	1659	74	mate	black	110	A10	English Opening: Great Snake Variation
+2058	1798	96	resign	black	260	A28	English Opening: King's English Variation |  Four Knights Variation |  Quiet Line #3
+2036	1882	40	mate	black	154	A25	English Opening: King's English Variation |  Reversed Closed Sicilian
+1649	1500	64	time	black	149	A30	English Opening: Symmetrical Variation
+2044	1867	148	mate	black	177	A34	English Opening: Symmetrical Variation |  Fianchetto Variation
+2254	2117	36	time	black	137	A40	Englund Gambit Declined |  Reversed French
+1722	1612	96	mate	black	110	C46	Four Knights Game
+2139	1557	82	time	black	582	C50	Four Knights Game: Italian Variation
+1793	1640	40	resign	black	153	C46	Four Knights Game: Italian Variation
+1906	1672	102	resign	black	234	C47	Four Knights Game: Scotch Variation Accepted
+1805	1680	42	resign	black	125	C00	French Defense #2
+1649	1547	38	resign	black	102	C02	French Defense: Advance Variation #4
+2118	1817	84	resign	black	301	C13	French Defense: Classical Variation |  Normal Variation
+1874	1774	52	resign	black	100	C01	French Defense: Exchange Variation
+2021	1857	66	resign	black	164	C01	French Defense: Exchange Variation
+2057	1949	154	resign	black	108	C01	French Defense: Exchange Variation
+1802	1691	40	resign	black	111	C00	French Defense: Knight Variation
+1696	1527	84	time	black	169	C00	French Defense: Knight Variation
+1743	1616	32	resign	black	127	C00	French Defense: Knight Variation
+1927	1718	102	mate	black	209	C00	French Defense: Knight Variation
+1768	1560	64	mate	black	208	C00	French Defense: La Bourdonnais Variation
+1781	1598	46	resign	black	183	C00	French Defense: La Bourdonnais Variation
+2267	1500	166	mate	black	767	C12	French Defense: MacCutcheon Variation |  Exchange Variation
+1858	1730	49	resign	black	128	C00	French Defense: Normal Variation
+1868	1675	94	resign	black	193	C00	French Defense: Normal Variation
+1941	1605	54	resign	black	336	C00	French Defense: Normal Variation
+1948	1842	50	resign	black	106	C00	French Defense: Reti-Spielmann Attack
+1971	1858	156	time	black	113	C10	French Defense: Rubinstein Variation |  Blackburne Defense
+1877	1558	50	resign	black	319	C11	French Defense: Steinitz Variation #2
+1932	1757	72	mate	black	175	C03	French Defense: Tarrasch Variation
+1998	1880	62	resign	black	118	C18	French Defense: Winawer Variation |  Advance Variation #2
+1924	1512	14	resign	black	412	C15	French Defense: Winawer Variation |  Winckelmann-Riemer Gambit
+2344	2215	50	resign	black	129	C50	Giuoco Piano
+1807	1274	12	resign	black	533	A00	Grob Opening: Grob Gambit
+1857	1565	84	time	black	292	A40	Horwitz Defense
+2278	1800	38	resign	black	478	A40	Horwitz Defense
+1726	1582	142	mate	black	144	A40	Horwitz Defense
+1754	1263	36	time	black	491	A40	Horwitz Defense
+1834	1723	78	time	black	111	A40	Horwitz Defense
+1763	1628	32	resign	black	135	A00	Hungarian Opening
+1713	1558	114	mate	black	155	A00	Hungarian Opening: Indian Defense
+1847	1712	62	resign	black	135	A45	Indian Game
+1722	1592	104	mate	black	130	E61	Indian Game: West Indian Defense
+1748	1647	60	resign	black	101	C50	Italian Game
+1760	1358	22	mate	black	402	C50	Italian Game
+1687	1557	74	resign	black	130	C55	Italian Game: Anti-Fried Liver Defense
+2232	2081	72	time	black	151	C50	Italian Game: Giuoco Pianissimo |  Italian Four Knights Variation
+1813	1602	24	mate	black	211	C50	Italian Game: Giuoco Pianissimo |  Italian Four Knights Variation
+1654	1515	82	resign	black	139	C50	Italian Game: Giuoco Pianissimo |  Italian Four Knights Variation
+2151	2029	82	resign	black	122	C50	Italian Game: Giuoco Pianissimo |  Normal
+1777	1648	38	resign	black	129	C50	Italian Game: Giuoco Pianissimo |  Normal
+1901	1629	26	resign	black	272	C50	Italian Game: Giuoco Pianissimo |  Normal
+1763	1661	112	mate	black	102	C54	Italian Game: Giuoco Piano |  Greco's Attack
+1862	1556	34	mate	black	306	C50	Italian Game: Schilling-Kostic Gambit
+1844	1731	76	mate	black	113	C55	Italian Game: Scotch Gambit |  Janowski Defense
+1728	1500	14	resign	black	228	C55	Italian Game: Two Knights Defense
+1730	1473	38	mate	black	257	C57	Italian Game: Two Knights Defense |  Knight Attack |  Normal Variation
+1740	1496	81	resign	black	244	C36	King's Gambit Accepted |  Abbazia Defense
+1940	1808	28	resign	black	132	C38	King's Gambit Accepted |  Greco Gambit
+1860	1712	10	resign	black	148	C37	King's Gambit Accepted |  King's Knight Gambit
+1705	1599	23	resign	black	106	C34	King's Gambit Accepted |  MacLeod Defense
+1788	1187	50	resign	black	601	C37	King's Gambit Accepted |  Muzio Gambit |  Sarratt Defense
+1910	1714	58	resign	black	196	C39	King's Gambit Accepted: Allgaier |  Schlechter Defense
+1861	1757	36	resign	black	104	C30	King's Gambit Declined |  Mafia Defense
+1869	1670	62	resign	black	199	A07	King's Indian Attack
+2036	1706	50	resign	black	330	A08	King's Indian Attack: French Variation
+2036	1706	50	resign	black	330	A08	King's Indian Attack: French Variation
+1785	1489	52	mate	black	296	E61	King's Indian Defense
+1953	1721	30	resign	black	232	E80	King's Indian Defense: Saemisch Variation
+1810	1473	70	mate	black	337	C20	King's Pawn Game
+1725	1451	70	time	black	274	C20	King's Pawn Game
+1720	1566	108	mate	black	154	C40	King's Pawn Game: McConnell Defense
+1742	1576	54	resign	black	166	C40	King's Pawn Game: McConnell Defense
+1716	1422	26	mate	black	294	C44	King's Pawn Game: Tayler Opening
+1734	1402	90	resign	black	332	A40	Mikenas Defense: Cannstatter Variation
+1678	1565	58	resign	black	113	B06	Modern Defense
+1829	1707	72	resign	black	122	A40	Modern Defense
+1634	1526	44	resign	black	108	A40	Modern Defense
+1953	1770	118	resign	black	183	B06	Modern Defense: Mongredien Defense #2
+2469	2369	96	time	black	100	B06	Modern Defense: Two Knights Variation |  Suttles Variation
+1654	1516	34	resign	black	138	E20	Nimzo-Indian Defense #2
+2270	1974	26	resign	black	296	E20	Nimzo-Indian Defense: Ragozin Variation
+2218	1990	60	resign	black	228	E20	Nimzo-Indian Defense: Romanishin Variation #2
+1649	1510	74	resign	black	139	A01	Nimzo-Larsen Attack: Classical Variation
+1655	1526	114	resign	black	129	A01	Nimzo-Larsen Attack: Modern Variation #3
+1936	1638	26	resign	black	298	A01	Nimzo-Larsen Attack: Modern Variation #4
+2045	1750	62	resign	black	295	B00	Nimzowitsch Defense |  Declined Variation
+1954	1850	196	mate	black	104	B00	Nimzowitsch Defense |  Declined Variation
+1640	1521	72	time	black	119	A06	Nimzowitsch-Larsen Attack
+1973	1856	68	resign	black	117	A41	Old Indian Defense
+2313	2168	10	resign	black	145	B00	Owen Defense
+1963	1380	22	resign	black	583	B00	Owen Defense
+1717	1460	58	resign	black	257	B00	Owen Defense
+1711	1456	128	resign	black	255	B00	Owen Defense
+1993	1868	16	time	black	125	C41	Philidor Defense
+1699	1581	50	mate	black	118	C41	Philidor Defense
+1624	1504	86	resign	black	120	C41	Philidor Defense #2
+2513	2383	150	resign	black	130	B07	Pirc Defense #4
+1746	1479	52	resign	black	267	B07	Pirc Defense #4
+1746	1645	32	resign	black	101	D20	Queen's Gambit Accepted
+1771	1588	89	resign	black	183	D20	Queen's Gambit Accepted
+1769	1396	28	resign	black	373	D20	Queen's Gambit Accepted: Old Variation
+1690	1540	134	resign	black	150	D20	Queen's Gambit Accepted: Old Variation
+1801	1686	42	resign	black	115	D20	Queen's Gambit Accepted: Old Variation
+1862	1358	34	resign	black	504	D20	Queen's Gambit Accepted: Saduleto Variation
+2250	2091	82	time	black	159	D30	Queen's Gambit Declined
+2144	2001	78	resign	black	143	D30	Queen's Gambit Declined
+1903	1744	82	resign	black	159	D55	Queen's Gambit Declined: Modern Variation |  Normal Line
+1853	1595	76	resign	black	258	D35	Queen's Gambit Declined: Normal Defense
+1795	1578	68	resign	black	217	D31	Queen's Gambit Declined: Queen's Knight Variation
+1810	1575	84	resign	black	235	D40	Queen's Gambit Declined: Semi-Tarrasch Defense |  Pillsbury Variation
+1749	1631	18	resign	black	118	D41	Queen's Gambit Declined: Semi-Tarrasch |  5.cxd5
+1923	1211	74	resign	black	712	D41	Queen's Gambit Declined: Semi-Tarrasch |  5.cxd5
+1927	1797	37	resign	black	130	D08	Queen's Gambit Refused: Albin Countergambit
+2093	1932	12	resign	black	161	D02	Queen's Gambit Refused: Baltic Defense |  Pseudo-Slav
+1627	1508	52	resign	black	119	D07	Queen's Gambit Refused: Chigorin Defense #3
+1715	1343	80	mate	black	372	D07	Queen's Gambit Refused: Chigorin Defense |  Exchange Variation
+1669	1502	70	mate	black	167	D06	Queen's Gambit Refused: Marshall Defense
+1840	1606	88	resign	black	234	A41	Queen's Pawn
+1776	1587	48	mate	black	189	D00	Queen's Pawn Game
+1829	1500	164	resign	black	329	D00	Queen's Pawn Game #3
+1718	1587	84	time	black	131	D02	Queen's Pawn Game: Chigorin Variation
+2035	1629	60	mate	black	406	D02	Queen's Pawn Game: London System
+2070	1968	129	resign	black	102	D02	Queen's Pawn Game: London System
+1813	1683	108	mate	black	130	D00	Queen's Pawn Game: Mason Attack
+1769	1624	42	resign	black	145	D00	Queen's Pawn Game: Mason Attack
+1753	1451	98	mate	black	302	D02	Queen's Pawn Game: Symmetrical Variation
+1907	1770	20	resign	black	137	D02	Queen's Pawn Game: Symmetrical Variation
+1954	1831	52	mate	black	123	D02	Queen's Pawn Game: Symmetrical Variation |  Pseudo-Catalan
+1694	1520	82	mate	black	174	D02	Queen's Pawn Game: Symmetrical Variation |  Pseudo-Catalan
+1887	1760	60	resign	black	127	D02	Queen's Pawn Game: Zukertort Variation
+1828	1697	76	mate	black	131	D02	Queen's Pawn Game: Zukertort Variation
+1841	1688	32	resign	black	153	B07	Rat Defense: Balogh Defense
+1851	1679	52	resign	black	172	B07	Rat Defense: Balogh Defense
+1720	1383	88	time	black	337	A41	Rat Defense: English Rat |  Lisbon Gambit
+1759	1500	60	mate	black	259	C42	Russian Game: Classical Attack
+2009	1404	54	resign	black	605	C65	Ruy Lopez: Berlin Defense #2
+2063	1500	62	resign	black	563	C65	Ruy Lopez: Berlin Defense #2
+1860	1496	88	mate	black	364	C67	Ruy Lopez: Berlin Defense |  Rio Gambit Accepted
+1884	1768	90	resign	black	116	C64	Ruy Lopez: Classical Variation |  Central Variation
+1865	1617	75	resign	black	248	C92	Ruy Lopez: Closed Variations |  Flohr System
+1966	1616	6	time	black	350	C60	Ruy Lopez: Cozio Defense
+1799	1611	60	mate	black	188	C77	Ruy Lopez: Morphy Defense |  Anderssen Variation
+2451	2270	56	resign	black	181	C72	Ruy Lopez: Morphy Defense |  Modern Steinitz Defense
+1833	1609	41	resign	black	224	C80	Ruy Lopez: Open Variations |  Open Variation
+1616	1504	24	resign	black	112	C62	Ruy Lopez: Steinitz Defense
+1746	1466	98	resign	black	280	C60	Ruy Lopez: Vinogradov Variation
+1878	1698	16	resign	black	180	B01	Scandinavian Defense: Marshall Variation
+1759	1532	126	time	black	227	B01	Scandinavian Defense: Mieses-Kotroc Variation
+1880	1320	70	resign	black	560	B01	Scandinavian Defense: Mieses-Kotroc Variation
+1787	1533	134	mate	black	254	B01	Scandinavian Defense: Mieses-Kotroc Variation
+2143	2032	168	time	black	111	B01	Scandinavian Defense: Mieses-Kotroc Variation
+1727	1574	70	time	black	153	B01	Scandinavian Defense: Modern Variation #2
+1706	1540	46	resign	black	166	B01	Scandinavian Defense: Modern Variation #2
+1779	1496	55	resign	black	283	B01	Scandinavian Defense: Modern Variation #2
+1675	1505	52	mate	black	170	B01	Scandinavian Defense: Panov Transfer
+2366	2264	52	resign	black	102	B01	Scandinavian Defense: Panov Transfer
+1854	1730	77	resign	black	124	C45	Scotch Game
+2011	1828	58	resign	black	183	C45	Scotch Game
+1896	1644	71	resign	black	252	C45	Scotch Game
+1796	1680	36	mate	black	116	C45	Scotch Game: Schmidt Variation
+1916	1222	41	resign	black	694	C45	Scotch Game: Scotch Gambit |  Advance Variation
+1773	1495	28	mate	black	278	C45	Scotch Game: Scotch Gambit |  Advance Variation
+1737	1601	42	mate	black	136	C44	Scotch Game: Scotch Gambit |  Dubois Reti Defense
+1769	1639	82	resign	black	130	D31	Semi-Slav Defense: Accelerated Move Order
+2176	2027	122	resign	black	149	B20	Sicilian Defense
+1764	1590	88	mate	black	174	B50	Sicilian Defense
+1758	1530	58	mate	black	228	B50	Sicilian Defense
+1891	1500	26	resign	black	391	B50	Sicilian Defense
+2209	2044	96	resign	black	165	B22	Sicilian Defense: Alapin Variation
+1712	1563	92	time	black	149	B20	Sicilian Defense: Bowdler Attack
+1698	1564	44	resign	black	134	B53	Sicilian Defense: Chekhover Variation
+1734	1384	40	resign	black	350	B50	Sicilian Defense: Delayed Alapin
+2200	2015	44	mate	black	185	B72	Sicilian Defense: Dragon Variation |  Classical Variation #2
+1813	1528	40	resign	black	285	B45	Sicilian Defense: Four Knights Variation |  Exchange Variation
+1789	1607	30	resign	black	182	B27	Sicilian Defense: Hyperaccelerated Dragon
+2336	2185	72	mate	black	151	B43	Sicilian Defense: Kan Variation |  Wing Attack
+1828	1715	74	resign	black	113	B94	Sicilian Defense: Najdorf Variation
+1759	1500	94	mate	black	259	B90	Sicilian Defense: Najdorf Variation
+2230	1948	86	time	black	282	B90	Sicilian Defense: Najdorf Variation
+2276	1949	184	mate	black	327	B30	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack
+1626	1503	48	resign	black	123	B30	Sicilian Defense: Old Sicilian
+1765	1577	46	resign	black	188	B33	Sicilian Defense: Open
+1844	1713	154	time	black	131	B32	Sicilian Defense: Open #3
+1780	1671	90	resign	black	109	B44	Sicilian Defense: Paulsen Variation
+2179	1991	90	resign	black	188	B40	Sicilian Defense: Pin Variation
+1864	1398	71	resign	black	466	B21	Sicilian Defense: Smith-Morra Gambit #2
+1799	1634	92	time	black	165	B20	Sicilian Defense: Snyder Variation
+1828	1694	94	time	black	134	D10	Slav Defense
+1839	1651	86	resign	black	188	D10	Slav Defense: Exchange Variation
+1693	1559	54	mate	black	134	D12	Slav Defense: Exchange Variation |  Schallopp Variation
+1791	1484	75	resign	black	307	D15	Slav Defense: Three Knights Variation
+1749	1559	80	resign	black	190	B00	St. George Defense
+1701	1500	68	mate	black	201	C46	Three Knights Opening
+2143	1916	34	resign	black	227	A45	Trompowsky Attack
+1710	1431	28	mate	black	279	A00	Van Geet Opening
+1765	1622	56	resign	black	143	A00	Van Geet Opening: Sicilian Two Knights
+1942	1611	48	resign	black	331	A00	Van't Kruijs Opening
+1602	1502	75	resign	black	100	A00	Van't Kruijs Opening
+1954	1771	70	resign	black	183	C25	Vienna Game: Anderssen Defense
+1853	1523	114	resign	black	330	C26	Vienna Game: Stanley Variation
+1901	1718	48	resign	black	183	A46	Yusupov-Rubinstein System
+1868	1716	107	resign	black	152	A04	Zukertort Opening: Pirc Invitation
+2082	1970	68	resign	black	112	A04	Zukertort Opening: Polish Defense
+1804	2023	99	resign	white	219	B03	Alekhine Defense: Exchange Variation
+1500	1627	43	resign	white	127	B04	Alekhine Defense: Modern Variation |  Larsen Variation
+1689	1981	62	resign	white	292	A57	Benko Gambit
+2104	2215	91	mate	white	111	A58	Benko Gambit Accepted |  Fianchetto Variation
+1661	1762	143	mate	white	101	A56	Benoni Defense
+1874	2049	59	mate	white	175	A43	Benoni Defense: Benoni-Indian Defense
+1724	1958	49	time	white	234	A43	Benoni Defense: Benoni-Indian Defense |  Kingside Move Order
+1596	1711	41	mate	white	115	C23	Bishop's Opening
+1379	1746	61	mate	white	367	C23	Bishop's Opening
+1518	1823	59	mate	white	305	D00	Blackmar-Diemer Gambit: Zeller Defense
+1929	2046	87	resign	white	117	B12	Caro-Kann Defense
+2109	2247	66	resign	white	138	B13	Caro-Kann Defense: Exchange Variation
+1946	2211	83	mate	white	265	B13	Caro-Kann Defense: Exchange Variation
+1613	1934	99	resign	white	321	B12	Caro-Kann Defense: Maroczy Variation |  Maroczy Gambit
+1491	1722	77	resign	white	231	C21	Center Game #2
+1538	1721	75	resign	white	183	C21	Center Game: Kieseritzky Variation #4
+1500	1973	75	mate	white	473	A80	Dutch Defense: Hopton Attack
+1791	1929	91	mate	white	138	A85	Dutch Defense: Queen's Knight Variation
+1771	1875	97	mate	white	104	A40	English Defense #2
+1797	2083	71	time	white	286	A15	English Opening: Anglo-Indian Defense |  King's Indian Formation
+1962	2219	59	mate	white	257	A15	English Opening: Anglo-Indian Defense |  Scandinavian Defense
+1639	1807	45	mate	white	168	A20	English Opening: King's English Variation
+1939	2177	47	resign	white	238	A29	English Opening: King's English Variation |  Four Knights Variation |  Fianchetto Line
+1594	1750	33	mate	white	156	A25	English Opening: King's English Variation |  Reversed Closed Sicilian
+1542	1659	51	time	white	117	A25	English Opening: King's English Variation |  Reversed Closed Sicilian
+1588	1706	57	resign	white	118	A21	English Opening: King's English Variation |  Reversed Sicilian
+1864	2267	45	resign	white	403	A39	English Opening: Symmetrical Variation |  Mecking Variation
+1431	1750	61	time	white	319	A40	Englund Gambit Complex Declined
+1701	1821	71	time	white	120	C47	Four Knights Game: Scotch Variation
+1699	1800	41	resign	white	101	C48	Four Knights Game: Spanish Variation
+1723	1859	55	resign	white	136	C00	French Defense #2
+1684	2239	101	time	white	555	C00	French Defense #2
+1503	1819	71	mate	white	316	C02	French Defense: Advance Variation |  Main Line
+1713	1885	45	resign	white	172	C02	French Defense: Advance Variation |  Milner-Barry Gambit
+1613	1729	71	resign	white	116	C02	French Defense: Advance Variation |  Paulsen Attack
+1868	1991	51	resign	white	123	C02	French Defense: Advance Variation |  Paulsen Attack
+1937	2090	129	time	white	153	C01	French Defense: Exchange Variation
+1785	2054	29	resign	white	269	C01	French Defense: Exchange Variation
+1699	1812	65	mate	white	113	C01	French Defense: Exchange Variation
+1678	1785	33	resign	white	107	C01	French Defense: Exchange Variation
+1529	1639	38	resign	white	110	C00	French Defense: Knight Variation
+1582	1704	41	resign	white	122	C00	French Defense: Knight Variation
+1954	2249	34	resign	white	295	C00	French Defense: Knight Variation
+1790	2034	33	resign	white	244	C10	French Defense: Marshall Variation
+1584	1957	52	resign	white	373	C00	French Defense: Queen's Knight
+2181	2327	9	resign	white	146	C10	French Defense: Rubinstein Variation
+1503	1664	23	time	white	161	C00	French Defense: Two Knights Variation
+1321	1771	73	mate	white	450	C00	French Defense: Two Knights Variation
+1776	1888	51	resign	white	112	C01	French Defense: Winawer Variation |  Delayed Exchange Variation
+1672	1774	35	resign	white	102	C18	French Defense: Winawer Variation |  Maroczy-Wallis Variation
+1293	2123	89	mate	white	830	C50	Giuoco Piano
+1742	1856	89	resign	white	114	D85	Gruenfeld Defense: Exchange Variation |  Modern Exchange Variation
+1943	2091	49	resign	white	148	D85	Gruenfeld Defense: Exchange Variation |  Modern Exchange Variation
+1513	1784	85	mate	white	271	A40	Horwitz Defense
+1681	1874	59	resign	white	193	A40	Horwitz Defense
+1782	1884	37	mate	white	102	A40	Horwitz Defense
+1629	1858	13	resign	white	229	A40	Horwitz Defense
+1384	1821	103	time	white	437	A00	Hungarian Opening
+1650	1756	89	mate	white	106	A45	Indian Game
+1453	1724	51	resign	white	271	C55	Italian Game: Anti-Fried Liver Defense
+1556	1676	81	time	white	120	C55	Italian Game: Anti-Fried Liver Defense
+1679	1834	67	mate	white	155	C55	Italian Game: Anti-Fried Liver Defense
+1278	1801	17	resign	white	523	C55	Italian Game: Anti-Fried Liver Defense
+1517	1772	55	resign	white	255	C55	Italian Game: Anti-Fried Liver Defense
+1545	1714	119	mate	white	169	C53	Italian Game: Bird's Attack
+1498	1780	51	time	white	282	C53	Italian Game: Classical Variation #2
+1500	1772	41	mate	white	272	C53	Italian Game: Classical Variation |  Giuoco Pianissimo
+1581	1690	97	mate	white	109	C54	Italian Game: Classical Variation |  Greco Gambit |  Traditional Line
+1769	1926	49	resign	white	157	C55	Italian Game: Deutz Gambit
+1579	1731	115	resign	white	152	C50	Italian Game: Giuoco Pianissimo |  Italian Four Knights Variation
+1668	1976	71	resign	white	308	C50	Italian Game: Giuoco Pianissimo |  Normal
+1639	1807	19	resign	white	168	C55	Italian Game: Two Knights Defense |  Modern Bishop's Opening
+1774	1894	63	resign	white	120	C55	Italian Game: Two Knights Defense |  Modern Bishop's Opening
+1659	2126	91	resign	white	467	C59	Italian Game: Two Knights Defense |  Polerio Defense |  Suhle Defense
+1498	1759	49	mate	white	261	A00	Kadas Opening
+1810	1967	53	resign	white	157	C33	King's Gambit Accepted |  Bishop's Gambit
+1678	1839	67	resign	white	161	A05	King's Indian Attack: Symmetrical Defense
+1522	1627	39	resign	white	105	E70	King's Indian Defense: Normal Variation
+1649	1888	43	resign	white	239	E60	King's Indian Defense: Normal Variation |  King's Knight Variation
+1825	2109	55	mate	white	284	E91	King's Indian Defense: Orthodox Variation
+1430	2173	3	resign	white	743	C40	King's Knight Opening
+1591	1778	41	resign	white	187	C40	King's Knight Opening
+1295	1821	25	mate	white	526	C44	King's Knight Opening: Normal Variation
+1324	1795	95	mate	white	471	C44	King's Knight Opening: Normal Variation
+1484	2113	1	resign	white	629	B00	King's Pawn
+1500	1688	85	resign	white	188	C40	King's Pawn Game: Busch-Gass Gambit
+1504	1811	27	resign	white	307	B07	King's Pawn Game: Maroczy Defense
+1434	1724	33	resign	white	290	C20	King's Pawn Game: Wayward Queen Attack |  Kiddie Countergambit
+1721	1857	63	resign	white	136	C40	Latvian Gambit Accepted
+2116	2252	95	mate	white	136	E34	Nimzo-Indian Defense: Classical Variation |  Noa Variation
+1686	2166	85	resign	white	480	E42	Nimzo-Indian Defense: Huebner Variation |  Rubinstein Variation
+1740	1920	97	mate	white	180	E50	Nimzo-Indian Defense: Normal Variation |  Huebner Deferred
+1735	1929	41	resign	white	194	E50	Nimzo-Indian Defense: Normal Variation |  Huebner Deferred
+1828	2012	65	resign	white	184	E51	Nimzo-Indian Defense: Normal Variation |  Ragozin Variation
+1728	1859	73	mate	white	131	A01	Nimzo-Larsen Attack
+2022	2148	73	time	white	126	A01	Nimzo-Larsen Attack: Modern Variation #4
+1934	2045	83	resign	white	111	B00	Nimzowitsch Defense
+1560	1686	111	time	white	126	B00	Nimzowitsch Defense |  Declined Variation
+1518	1709	35	resign	white	191	B00	Nimzowitsch Defense: Lean Variation |  Colorado Counter Accepted
+1265	1957	31	resign	white	692	B00	Nimzowitsch Defense: Scandinavian Variation |  Advance Variation
+1949	2077	107	time	white	128	B00	Nimzowitsch Defense: Scandinavian Variation |  Exchange Variation
+1757	1896	50	resign	white	139	B00	Nimzowitsch Defense: Williams Variation
+1528	1708	55	resign	white	180	A53	Old Indian Defense
+1497	1730	57	resign	white	233	B00	Owen Defense
+1519	1740	77	resign	white	221	C42	Petrov's Defense #2
+1534	1678	33	mate	white	144	C41	Philidor Defense
+1810	1933	147	mate	white	123	C41	Philidor Defense #2
+1694	1825	89	time	white	131	C41	Philidor Defense #3
+1502	1695	118	resign	white	193	C41	Philidor Defense #3
+1846	1947	57	resign	white	101	C41	Philidor Defense #3
+1562	1714	51	resign	white	152	C41	Philidor Defense #3
+1541	1690	41	mate	white	149	C41	Philidor Defense: Exchange Variation #2
+1505	1617	85	resign	white	112	C41	Philidor Defense: Hanham Variation
+1525	1657	41	resign	white	132	B07	Pirc Defense #4
+2081	2243	43	resign	white	162	B07	Pirc Defense #4
+1803	1934	55	resign	white	131	B08	Pirc Defense: Classical Variation |  Quiet System |  Czech Defense
+1791	1983	53	resign	white	192	B08	Pirc Defense: Classical Variation |  Schlechter Variation
+1588	1996	31	resign	white	408	A00	Polish Opening
+2067	2243	29	resign	white	176	A00	Polish Opening: Queen's Indian Variation
+1599	1744	145	mate	white	145	C20	Portuguese Opening
+1264	1763	103	mate	white	499	D20	Queen's Gambit Accepted
+1696	1824	24	resign	white	128	D24	Queen's Gambit Accepted: Gunsberg Defense |  Prianishenmo Gambit
+1919	2021	51	resign	white	102	D25	Queen's Gambit Accepted: Normal Variation
+1615	1731	67	resign	white	116	D20	Queen's Gambit Accepted: Old Variation
+1600	1761	39	resign	white	161	D20	Queen's Gambit Accepted: Old Variation
+1826	1965	61	resign	white	139	D30	Queen's Gambit Declined
+1640	1881	53	resign	white	241	D30	Queen's Gambit Declined
+1799	2073	43	resign	white	274	D53	Queen's Gambit Declined: 4.Bg5 Be7
+2080	2278	65	resign	white	198	D53	Queen's Gambit Declined: 4.Bg5 Be7 |  5.e3 O-O
+1532	1773	89	resign	white	241	D50	Queen's Gambit Declined: Been-Koomen Variation
+1683	1814	43	resign	white	131	D31	Queen's Gambit Declined: Charousek (Petrosian) Variation
+1684	1785	32	resign	white	101	D31	Queen's Gambit Declined: Queen's Knight Variation
+1874	2020	81	resign	white	146	D02	Queen's Gambit Refused: Baltic Defense |  Pseudo-Slav
+1581	1798	67	resign	white	217	D07	Queen's Gambit Refused: Chigorin Defense #2
+1699	1803	49	mate	white	104	D06	Queen's Gambit Refused: Marshall Defense
+1741	1874	61	resign	white	133	A40	Queen's Pawn
+1570	1750	9	resign	white	180	D00	Queen's Pawn Game
+1502	1635	71	resign	white	133	D00	Queen's Pawn Game: Chigorin Variation
+1321	1826	83	mate	white	505	D01	Queen's Pawn Game: Chigorin Variation
+1718	2210	43	resign	white	492	D01	Queen's Pawn Game: Chigorin Variation
+1554	1713	56	resign	white	159	D02	Queen's Pawn Game: Krause Variation
+1571	1728	131	resign	white	157	D02	Queen's Pawn Game: London System
+1536	1667	57	mate	white	131	D02	Queen's Pawn Game: London System
+1484	1743	51	resign	white	259	D01	Queen's Pawn Game: Veresov Attack |  Classical Defense
+1770	1872	33	resign	white	102	D02	Queen's Pawn Game: Zukertort Variation
+1525	1693	60	resign	white	168	D02	Queen's Pawn Game: Zukertort Variation
+1713	1848	37	resign	white	135	D02	Queen's Pawn Game: Zukertort Variation
+1820	2095	27	resign	white	275	B07	Rat Defense: Accelerated Gurgenidze
+1785	2116	79	resign	white	331	B07	Rat Defense: Accelerated Gurgenidze
+1552	1754	25	resign	white	202	C00	Rat Defense: Small Center Defense
+1500	1603	59	mate	white	103	C65	Ruy Lopez: Berlin Defense #2
+1609	1754	79	resign	white	145	C65	Ruy Lopez: Berlin Defense #2
+1500	1906	27	mate	white	406	C65	Ruy Lopez: Berlin Defense |  Fishing Pole Variation
+1716	1856	73	resign	white	140	C66	Ruy Lopez: Berlin Defense |  Improved Steinitz Defense
+2203	2346	117	resign	white	143	C67	Ruy Lopez: Berlin Defense |  l'Hermet Variation
+1565	1673	100	resign	white	108	C79	Ruy Lopez: Morphy Defense |  Steinitz Deferred
+1617	2024	53	resign	white	407	C77	Ruy Lopez: Morphy Defense |  Tarrasch Variation
+1694	1838	29	resign	white	144	C71	Ruy Lopez: Noah's Ark Trap
+1813	1999	65	time	white	186	B01	Scandinavian Defense
+1816	2041	133	resign	white	225	B01	Scandinavian Defense: Icelandic-Palme Gambit
+1745	1853	79	resign	white	108	B01	Scandinavian Defense: Main Line
+1949	2225	89	mate	white	276	B01	Scandinavian Defense: Main Line
+2090	2236	81	resign	white	146	B01	Scandinavian Defense: Main Line
+1519	1650	69	mate	white	131	B01	Scandinavian Defense: Main Line
+1757	1891	73	resign	white	134	B01	Scandinavian Defense: Mieses-Kotroc Variation
+1641	1959	55	mate	white	318	B01	Scandinavian Defense: Mieses-Kotroc Variation
+1848	2264	125	resign	white	416	B01	Scandinavian Defense: Modern Variation #2
+2056	2264	137	resign	white	208	B01	Scandinavian Defense: Modern Variation #2
+1929	2037	61	resign	white	108	B01	Scandinavian Defense: Modern Variation #2
+1724	1855	75	time	white	131	C45	Scotch Game
+1344	1961	61	resign	white	617	C45	Scotch Game
+1532	1640	75	time	white	108	C44	Scotch Game
+1218	1841	43	resign	white	623	C45	Scotch Game: Classical Variation
+1583	1767	81	time	white	184	C44	Scotch Game: Lolli Variation
+1609	2109	107	resign	white	500	D43	Semi-Slav Defense
+1819	2020	63	mate	white	201	B27	Sicilian Defense
+1717	1833	71	resign	white	116	B50	Sicilian Defense
+1708	1918	40	resign	white	210	B50	Sicilian Defense
+1500	1694	61	time	white	194	B50	Sicilian Defense
+1741	1849	89	resign	white	108	B50	Sicilian Defense
+1500	1605	33	resign	white	105	B50	Sicilian Defense
+1785	1971	119	resign	white	186	B20	Sicilian Defense: Bowdler Attack
+1605	2114	151	time	white	509	B20	Sicilian Defense: Bowdler Attack
+1500	1793	51	resign	white	293	B23	Sicilian Defense: Closed
+2005	2151	43	mate	white	146	B25	Sicilian Defense: Closed Variation |  Traditional
+1555	1711	83	mate	white	156	B25	Sicilian Defense: Closed Variation |  Traditional
+1663	1790	25	mate	white	127	B25	Sicilian Defense: Closed Variation |  Traditional
+1697	1955	36	resign	white	258	B25	Sicilian Defense: Closed Variation |  Traditional
+1774	2003	57	resign	white	229	B25	Sicilian Defense: Closed Variation |  Traditional
+2121	2234	67	mate	white	113	B74	Sicilian Defense: Dragon Variation |  Classical Variation |  Normal Line
+1608	1794	75	resign	white	186	B32	Sicilian Defense: Franco-Sicilian Variation
+1650	1910	53	resign	white	260	B40	Sicilian Defense: French Variation
+1538	1660	89	resign	white	122	B40	Sicilian Defense: French Variation |  Open
+1568	1696	33	resign	white	128	B32	Sicilian Defense: Loewenthal Variation
+1784	1972	169	mate	white	188	B57	Sicilian Defense: Modern Variations |  Main Line
+1621	1738	24	resign	white	117	B90	Sicilian Defense: Najdorf Variation
+1813	1940	75	resign	white	127	B30	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack
+1576	1767	17	mate	white	191	B30	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack
+1776	1880	79	mate	white	104	B31	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack |  Fianchetto Variation
+1821	1970	46	resign	white	149	B31	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack |  Fianchetto Variation
+1480	1815	19	resign	white	335	B28	Sicilian Defense: O'Kelly Variation |  Normal System |  Taimanov Line
+1609	1880	71	resign	white	271	B30	Sicilian Defense: Old Sicilian
+1842	2013	37	resign	white	171	B30	Sicilian Defense: Old Sicilian
+1747	1962	75	mate	white	215	B30	Sicilian Defense: Old Sicilian
+1643	1924	133	resign	white	281	B44	Sicilian Defense: Paulsen Variation |  Szen Variation
+1663	1826	69	resign	white	163	B21	Sicilian Defense: Smith-Morra Gambit
+1560	1661	83	time	white	101	B21	Sicilian Defense: Smith-Morra Gambit #2
+1540	2025	71	mate	white	485	B20	Sicilian Defense: Staunton-Cochrane Variation
+1550	1763	79	time	white	213	D10	Slav Defense #2
+1508	2203	41	mate	white	695	D14	Slav Defense: Exchange Variation |  Symmetrical Line
+1578	1787	29	mate	white	209	D10	Slav Defense: Slav Gambit |  Alekhine Attack
+1707	1858	29	resign	white	151	C46	Three Knights Opening
+2148	2274	39	resign	white	126	A48	Torre Attack
+1500	1973	41	time	white	473	A46	Torre Attack
+1536	1962	57	resign	white	426	A45	Trompowsky Attack
+1579	1722	111	mate	white	143	A45	Trompowsky Attack: Classical Defense
+1253	1917	99	resign	white	664	A00	Van Geet Opening: Dunst-Perrenet Gambit
+1302	1724	87	resign	white	422	A00	Van Geet Opening: Napoleon Attack
+1895	2028	119	time	white	133	C25	Vienna Game: Max Lange Defense
+1500	2154	35	mate	white	654	A46	Yusupov-Rubinstein System
+1817	2085	113	resign	white	268	A46	Yusupov-Rubinstein System
+1514	1672	40	resign	white	158	A46	Yusupov-Rubinstein System
+1792	1898	29	resign	white	106	A04	Zukertort Opening: Slav Invitation
+1720	1905	47	resign	white	185	A06	Zukertort Opening: Tennison Gambit
+1842	1958	155	resign	white	116	A06	Zukertort Opening: Tennison Gambit

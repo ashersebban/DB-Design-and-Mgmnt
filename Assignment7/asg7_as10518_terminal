@@ -1,0 +1,358 @@
+FROM worldChampions INNER JOIN players
+ON worldChampio' at line 3
+MySQL [as10518_ChessData]> SELECT Grandmaster, SUM(Years) AS 'Total Reign'
+    -> FROM(SELECT players.player_lastName AS Grandmaster,
+    -> champ_endDate-champ_startDate as Years
+    -> FROM worldChampions INNER JOIN players
+    -> ON worldChampions.champ_playerID = players.player_ID) AS reigns
+    -> GROUP BY Name
+    -> ORDER BY 'Total Reign';
+ERROR 1054 (42S22): Unknown column 'Name' in 'group statement'
+MySQL [as10518_ChessData]> SELECT Grandmaster, SUM(Years) AS 'Total Reign'
+    -> FROM(SELECT players.player_lastName AS Grandmaster,
+    -> champ_endDate-champ_startDate as Years
+    -> FROM worldChampions INNER JOIN players
+    -> ON worldChampions.champ_playerID = players.player_ID) AS reigns
+    -> GROUP BY Grandmaster
+    -> ORDER BY 'Total Reign';
++--------------+-------------+
+| Grandmaster  | Total Reign |
++--------------+-------------+
+| Morphy       |           4 |
+| Steinitz     |          24 |
+| Lasker       |          27 |
+| Capablanca   |           6 |
+| Alekhine     |          17 |
+| Euwe         |           2 |
+| Botvinnik    |          13 |
+| Smyslov      |           1 |
+| Tal          |           1 |
+| Petrosian    |           6 |
+| Spassky      |           3 |
+| Fischer      |           3 |
+| Karpov       |          16 |
+| Kasparov     |          15 |
+| Kramnik      |           7 |
+| Khalifman    |           1 |
+| Anand        |           8 |
+| Ponomariov   |           2 |
+| Kasimdzhanov |           1 |
+| Topalov      |           1 |
+| Carlson      |           6 |
++--------------+-------------+
+21 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> quit
+Bye
+[as10518@i6 ~]$ mysql -hwarehouse -pf6^C
+[as10518@i6 ~]$ clear
+
+[as10518@i6 ~]$ mysql -hwarehouse -pf6wr95eq
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MySQL connection id is 319323
+Server version: 5.1.73 Source distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MySQL [(none)]> SHOW DATABASES
+    -> ;
++---------------------------+
+| Database                  |
++---------------------------+
+| information_schema        |
+| as10518_ChessData         |
+| as10518_db1               |
+| as10518_studentLiteracyNY |
++---------------------------+
+4 rows in set (0.05 sec)
+
+MySQL [(none)]> USE as10518_ChessData
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+MySQL [as10518_ChessData]> SHOW TABLES
+    -> ;
++-----------------------------+
+| Tables_in_as10518_ChessData |
++-----------------------------+
+| countries                   |
+| games                       |
+| players                     |
+| statuses                    |
+| titles                      |
+| worldChampions              |
++-----------------------------+
+6 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> SELECT * FROM countries;
++------------+----------------+-------------------+
+| country_ID | country_name   | country_secondary |
++------------+----------------+-------------------+
+|          1 | France         | NULL              |
+|          2 | England        | NULL              |
+|          3 | Prussia        | NULL              |
+|          4 | USA            | NULL              |
+|          5 | Austria-Hungry | NULL              |
+|          6 | Germany        | NULL              |
+|          7 | Cuba           | NULL              |
+|          8 | Russia         | NULL              |
+|          9 | Netherlands    | NULL              |
+|         10 | Soviet Union   | Russia            |
+|         11 | Soviet Union   | Armenia           |
+|         12 | Soviet Union   | Latvia            |
+|         13 | Soviet Union   | Ukraine           |
+|         14 | Soviet Union   | Georgia           |
+|         15 | India          | NULL              |
+|         16 | Ukraine        | NULL              |
+|         17 | Uzbekistan     | NULL              |
+|         18 | Bulgaria       | NULL              |
+|         19 | Norway         | NULL              |
+|         20 | Czechoslovakia | NULL              |
+|         21 | China          | NULL              |
++------------+----------------+-------------------+
+21 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> 
+MySQL [as10518_ChessData]> SELECT * FROM statuses;
++-----------+-------------+
+| status_ID | status_type |
++-----------+-------------+
+|         1 | deceased    |
+|         2 | retired     |
+|         3 | active      |
++-----------+-------------+
+3 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> 
+MySQL [as10518_ChessData]> SELECT * FROM titles;
++----------+------------+
+| title_ID | title_name |
++----------+------------+
+|        1 | Noteworthy |
+|        2 | Unofficial |
+|        3 | Pre-FIDE   |
+|        4 | FIDE       |
+|        5 | Classical  |
+|        6 | Undisputed |
+|        7 | Women's    |
++----------+------------+
+7 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> SELECT player_firstName,player_lastName,statuses.status_type FROM players INNER JOIN statuses 
+    -> ON players.player_statusID = statuses.status_ID;
++------------------+-----------------+-------------+
+| player_firstName | player_lastName | status_type |
++------------------+-----------------+-------------+
+| Paul             | Morphy          | deceased    |
+| Wilhelm          | Steinitz        | deceased    |
+| Emanuel          | Lasker          | deceased    |
+| Jose             | Capablanca      | deceased    |
+| Alexander        | Alekhine        | deceased    |
+| Max              | Euwe            | deceased    |
+| Mikhail          | Botvinnik       | deceased    |
+| Vasily           | Smyslov         | deceased    |
+| Mikhail          | Tal             | deceased    |
+| Tigran           | Petrosian       | deceased    |
+| Boris            | Spassky         | retired     |
+| Robert           | Fischer         | deceased    |
+| Anatoly          | Karpov          | retired     |
+| Gary             | Kasparov        | retired     |
+| Alexander        | Khalifman       | active      |
+| Viswanathan      | Anand           | active      |
+| Vladimir         | Kramnik         | active      |
+| Ruslan           | Ponomariov      | active      |
+| Rustam           | Kasimdzhanov    | active      |
+| Veselin          | Topalov         | active      |
+| Magnus           | Carlson         | active      |
+| Asher            | Sebban          | active      |
++------------------+-----------------+-------------+
+22 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> SELECT CONCAT(player_firstName,' ',player_lastName) as player_name,countries.country_name FROM players INNER JOIN countries 
+    -> ON players.player_countryID = countries.country_ID
+    -> ORDER BY countries.country_name;
++---------------------+----------------+
+| player_name         | country_name   |
++---------------------+----------------+
+| Wilhelm Steinitz    | Austria-Hungry |
+| Veselin Topalov     | Bulgaria       |
+| Jose Capablanca     | Cuba           |
+| Alexander Alekhine  | France         |
+| Emanuel Lasker      | Germany        |
+| Viswanathan Anand   | India          |
+| Max Euwe            | Netherlands    |
+| Magnus Carlson      | Norway         |
+| Mikhail Tal         | Soviet Union   |
+| Anatoly Karpov      | Soviet Union   |
+| Vladimir Kramnik    | Soviet Union   |
+| Tigran Petrosian    | Soviet Union   |
+| Gary Kasparov       | Soviet Union   |
+| Mikhail Botvinnik   | Soviet Union   |
+| Boris Spassky       | Soviet Union   |
+| Alexander Khalifman | Soviet Union   |
+| Vasily Smyslov      | Soviet Union   |
+| Ruslan Ponomariov   | Ukraine        |
+| Paul Morphy         | USA            |
+| Robert Fischer      | USA            |
+| Rustam Kasimdzhanov | Uzbekistan     |
++---------------------+----------------+
+21 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> --RIGHT JOIN
+MySQL [as10518_ChessData]> SELECT CONCAT(players.player_firstName,' ',players.player_lastName) as player_name,country_name 
+    -> FROM countries RIGHT JOIN players 
+    -> ON players.player_countryID = countries.country_ID
+    -> ORDER BY countries.country_name
+    -> LIMIT 1;
++--------------+--------------+
+| player_name  | country_name |
++--------------+--------------+
+| Asher Sebban | NULL         |
++--------------+--------------+
+1 row in set (0.01 sec)
+
+MySQL [as10518_ChessData]> SELECT CONCAT(worldChampions.champ_startDate,"-",worldChampions.champ_endDate) AS 'Total Reign',
+    -> CONCAT(players.player_firstName," ",players.player_lastName) AS 'Full Name',
+    -> players.player_FIDE_peak AS 'Highest Rating',
+    -> countries.country_name AS Representing,
+    -> titles.title_name AS Category
+    -> FROM players,worldChampions,countries,titles
+    -> WHERE players.player_ID = worldChampions.champ_playerID
+    -> AND countries.country_ID = worldChampions.champ_countryID
+    -> AND titles.title_ID = worldChampions.champ_titleID;
++-------------+---------------------+----------------+----------------+------------+
+| Total Reign | Full Name           | Highest Rating | Representing   | Category   |
++-------------+---------------------+----------------+----------------+------------+
+| 1858-1862   | Paul Morphy         |           NULL | USA            | Unofficial |
+| 1886-1894   | Wilhelm Steinitz    |           NULL | Austria-Hungry | Pre-FIDE   |
+| 1886-1894   | Wilhelm Steinitz    |           NULL | England        | Pre-FIDE   |
+| 1886-1894   | Wilhelm Steinitz    |           NULL | USA            | Pre-FIDE   |
+| 1894-1921   | Emanuel Lasker      |           NULL | Germany        | Pre-FIDE   |
+| 1921-1927   | Jose Capablanca     |           NULL | Cuba           | Pre-FIDE   |
+| 1927-1935   | Alexander Alekhine  |           NULL | Russia         | Pre-FIDE   |
+| 1935-1937   | Max Euwe            |           NULL | Netherlands    | Pre-FIDE   |
+| 1937-1946   | Alexander Alekhine  |           NULL | France         | Pre-FIDE   |
+| 1948-1957   | Mikhail Botvinnik   |           NULL | Soviet Union   | FIDE       |
+| 1957-1958   | Vasily Smyslov      |           NULL | Soviet Union   | FIDE       |
+| 1958-1960   | Mikhail Botvinnik   |           NULL | Soviet Union   | FIDE       |
+| 1960-1961   | Mikhail Tal         |           NULL | Soviet Union   | FIDE       |
+| 1961-1963   | Mikhail Botvinnik   |           NULL | Soviet Union   | FIDE       |
+| 1963-1969   | Tigran Petrosian    |           NULL | Soviet Union   | FIDE       |
+| 1969-1972   | Boris Spassky       |           NULL | Soviet Union   | FIDE       |
+| 1972-1975   | Robert Fischer      |           2785 | USA            | FIDE       |
+| 1975-1985   | Anatoly Karpov      |           2780 | Soviet Union   | FIDE       |
+| 1985-1993   | Gary Kasparov       |           2851 | Soviet Union   | FIDE       |
+| 1993-2000   | Gary Kasparov       |           2851 | Russia         | Classical  |
+| 2000-2006   | Vladimir Kramnik    |           2810 | Russia         | Classical  |
+| 1993-1999   | Anatoly Karpov      |           2780 | Russia         | FIDE       |
+| 1999-2000   | Alexander Khalifman |           2702 | Russia         | FIDE       |
+| 2000-2002   | Viswanathan Anand   |           2817 | India          | FIDE       |
+| 2002-2004   | Ruslan Ponomariov   |           2758 | Ukraine        | FIDE       |
+| 2004-2005   | Rustam Kasimdzhanov |           2715 | Uzbekistan     | FIDE       |
+| 2005-2006   | Veselin Topalov     |           2816 | Bulgaria       | FIDE       |
+| 2006-2007   | Vladimir Kramnik    |           2810 | Russia         | Undisputed |
+| 2007-2013   | Viswanathan Anand   |           2817 | India          | Undisputed |
+| 2013-2019   | Magnus Carlson      |           2881 | Norway         | Undisputed |
++-------------+---------------------+----------------+----------------+------------+
+30 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> SELECT titles.title_name AS Eras, COUNT(*) AS Total 
+    -> FROM worldChampions LEFT JOIN titles
+    -> ON titles.title_ID = worldChampions.champ_titleID
+    -> GROUP BY titles.title_ID;
++------------+-------+
+| Eras       | Total |
++------------+-------+
+| Unofficial |     1 |
+| Pre-FIDE   |     8 |
+| FIDE       |    16 |
+| Classical  |     2 |
+| Undisputed |     3 |
++------------+-------+
+5 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> SELECT countries.country_name AS Country, COUNT(*) AS Total 
+    -> FROM worldChampions LEFT JOIN countries
+    -> ON countries.country_ID = worldChampions.champ_countryID
+    -> GROUP BY countries.country_name;
++----------------+-------+
+| Country        | Total |
++----------------+-------+
+| Austria-Hungry |     1 |
+| Bulgaria       |     1 |
+| Cuba           |     1 |
+| England        |     1 |
+| France         |     1 |
+| Germany        |     1 |
+| India          |     2 |
+| Netherlands    |     1 |
+| Norway         |     1 |
+| Russia         |     6 |
+| Soviet Union   |     9 |
+| Ukraine        |     1 |
+| USA            |     3 |
+| Uzbekistan     |     1 |
++----------------+-------+
+14 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> SELECT DISTINCT(country_name) as 'Winning Countries' FROM countries
+    -> WHERE country_ID 
+    -> IN(SELECT worldChampions.champ_countryID 
+    -> FROM worldChampions);
++-------------------+
+| Winning Countries |
++-------------------+
+| France            |
+| England           |
+| USA               |
+| Austria-Hungry    |
+| Germany           |
+| Cuba              |
+| Russia            |
+| Netherlands       |
+| Soviet Union      |
+| India             |
+| Ukraine           |
+| Uzbekistan        |
+| Bulgaria          |
+| Norway            |
++-------------------+
+14 rows in set (0.00 sec)
+
+MySQL [as10518_ChessData]> SELECT Grandmaster, SUM(Years) AS 'Total Reign'
+    -> FROM(SELECT players.player_lastName AS Grandmaster,(champ_endDate - champ_startDate) AS Years 
+    -> FROM worldChampions INNER JOIN players 
+    -> ON worldChampions.champ_playerID = players.player_ID) AS reigns
+    -> GROUP BY Grandmaster
+    -> ORDER BY 'Total Reign';
++--------------+-------------+
+| Grandmaster  | Total Reign |
++--------------+-------------+
+| Morphy       |           4 |
+| Steinitz     |          24 |
+| Lasker       |          27 |
+| Capablanca   |           6 |
+| Alekhine     |          17 |
+| Euwe         |           2 |
+| Botvinnik    |          13 |
+| Smyslov      |           1 |
+| Tal          |           1 |
+| Petrosian    |           6 |
+| Spassky      |           3 |
+| Fischer      |           3 |
+| Karpov       |          16 |
+| Kasparov     |          15 |
+| Kramnik      |           7 |
+| Khalifman    |           1 |
+| Anand        |           8 |
+| Ponomariov   |           2 |
+| Kasimdzhanov |           1 |
+| Topalov      |           1 |
+| Carlson      |           6 |
++--------------+-------------+
+21 rows in set (0.01 sec)
+
+MySQL [as10518_ChessData]> 

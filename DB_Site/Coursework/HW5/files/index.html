@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Homework 5</title>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<meta charset="UTF-8">
+</head>
+
+
+
+<body>
+	<h1>Database Design and Web Implementation</h1>
+	<nav id="mainNav">
+		<div class="navBoxes">
+			<a href="../../../Home/index.html">Home</a>
+		</div>
+		<div class="navBoxes">
+			<a href="../../index.html">Coursework</a>
+		</div>
+		<div class="navBoxes">
+			<a href="#">Recent</a>
+		</div>
+	</nav>
+
+	<section>
+		<h3>HOMEWORK 5</h3>
+		<div id="box1">
+			<p>This data set contains thousands of online chess matches that have already been played. The goal of our program is to list available data on particular openings. The user has the option to choose a particular opening, or simply sort through all them! The user also has the option to choose an 'underdog'. If an underdog is chosen, only games in which a lower rated player beat a high rated player will be presented. This makes it easier to compile data on which openings may be best to use when playing someone better than you.<br>
+			The original set comes from this website:
+			<a href="https://www.kaggle.com/datasnaek/chess" target="_blank">https://www.kaggle.com/datasnaek/chess</a></p>
+			<ul>Visible Changes:
+				<li>Data now includes player names for both black and white.</li>
+			</ul>
+			<ul>Invisible Changes:
+				<li>Csv file now includes a computed column for underdog.</li>
+			</ul>
+		</div>
+	</section>
+
+	<div id="box2">
+		<form method="POST" action="data.py">
+			<p>Select Opening:</p>
+			<select name="opening">
+				<option></option>
+				<option>Alekhine Defense</option>
+				<option>Benoni Defense</option>
+				<option>Bird Opening</option>
+				<option>Bishop's Opening</option>
+				<option>Blackmar-Diemer Gambit</option>
+				<option>Caro-Kann Defense</option>
+				<option>Center Game</option>
+				<option>Dutch Defense</option>
+				<option>Elephant Gambit</option>
+				<option>English</option>
+				<option>Englund Gambit</option>
+				<option>Four Knight's Game</option>
+				<option>French Defense</option>
+				<option>Gruenfeld Defense</option>
+				<option>Horwitz Defense</option>
+				<option>Hungarian Opening</option>
+				<option>Indian Game</option>
+				<option>Italian Game</option>
+				<option>King's Gambit</option>
+				<option>King's Indian Defense</option>
+				<option>King's Knight Opening</option>
+				<option>King's Pawn Game</option>
+				<option>Mieses Opening</option>
+				<option>Modern Defense</option>
+				<option>Nimzo-Indian Defense</option>
+				<option>Nimzo-Larsen Attack</option>
+				<option>Nimzowitsch Defense</option>
+				<option>Old Indian Defense</option>
+				<option>Philidor Defense</option>
+				<option>Pirc Defense</option>
+				<option>Queen's Gambit</option>
+				<option>Queen's Pawn</option>
+				<option>Reti Opening</option>
+				<option>Russian Game</option>
+				<option>Ruy Lopez</option>
+				<option>Saragossa Opening</option>
+				<option>Scandinavian Defense</option>
+				<option>Scotch Game</option>
+				<option>Slav Defense</option>
+				<option>Sicilian Defense</option>
+				<option>Three Knights Opening</option>
+				<option>Van't Kruijs Opening</option>
+				<option>Vienna Game</option>
+				<option>Zukertort Opening</option>
+			</select>
+			<p>Select Underdog:</p>
+			<select name="underdog">
+				<option></option>
+				<option>white</option>
+				<option>black</option>
+			</select>
+			 <!--
+			<p>Underdog rating :</p>
+			<select name="under_min">
+	    		<option></option>
+				<option>700</option>
+				<option>800</option>
+				<option>900</option>
+				<option>1000</option>
+				<option>1100</option>
+				<option>1200</option>
+				<option>1300</option>
+				<option>1400</option>
+				<option>1500</option>
+				<option>1600</option>
+				<option>1700</option>
+				<option>1800</option>
+				<option>1900</option>
+				<option>2000</option>
+				<option>2100</option>
+				<option>2200</option>
+				<option>2300</option>
+				<option>2400</option>
+			</select>
+			<select name="under_max">
+	    		<option></option>
+				<option>2500</option>
+				<option>2400</option>
+				<option>2300</option>
+				<option>2200</option>
+				<option>2100</option>
+				<option>2000</option>
+				<option>1900</option>
+				<option>1800</option>
+				<option>1700</option>
+				<option>1600</option>
+				<option>1500</option>
+				<option>1400</option>
+				<option>1300</option>
+				<option>1200</option>
+				<option>1100</option>
+				<option>1000</option>
+				<option>900</option>
+				<option>800</option>
+			</select>
+			<p>Opposition rating :</p>
+			<select name="over_min">
+	    		<option></option>
+				<option>700</option>
+				<option>800</option>
+				<option>900</option>
+				<option>1000</option>
+				<option>1100</option>
+				<option>1200</option>
+				<option>1300</option>
+				<option>1400</option>
+				<option>1500</option>
+				<option>1600</option>
+				<option>1700</option>
+				<option>1800</option>
+				<option>1900</option>
+				<option>2000</option>
+				<option>2100</option>
+				<option>2200</option>
+				<option>2300</option>
+				<option>2400</option>
+			</select>
+			<select name="over_max">
+	    		<option></option>
+				<option>2500</option>
+				<option>2400</option>
+				<option>2300</option>
+				<option>2200</option>
+				<option>2100</option>
+				<option>2000</option>
+				<option>1900</option>
+				<option>1800</option>
+				<option>1700</option>
+				<option>1600</option>
+				<option>1500</option>
+				<option>1400</option>
+				<option>1300</option>
+				<option>1200</option>
+				<option>1100</option>
+				<option>1000</option>
+				<option>900</option>
+				<option>800</option>
+			</select>
+			-->
+			<p>How many items would you like to see:</p>
+			<select name="number">
+				<option>All</option>
+				<option>10</option>
+				<option>20</option>
+				<option>50</option>
+				<option>100</option>
+				<option>500</option>
+			</select>
+			<select name="order">
+				<option>ASC</option>
+				<option>DESC</option>
+			</select>
+			<hr>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Cancel">
+		</form>
+		<div id="data">
+			<div class="background">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

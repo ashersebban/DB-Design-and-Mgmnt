@@ -1,0 +1,169 @@
+
+
+[as10518@i6 mongoDB]$ mongoimport --db as10518 --collection zips --host class-mongodb.cims.nyu.edu --username as10518 --password SyM75KB8 --type json --file zips.json --jsonArray
+2019-06-07T14:34:20.236-0400	connected to: class-mongodb.cims.nyu.edu
+2019-06-07T14:34:20.237-0400	Failed: error reading separator after document #1: bad JSON array format - found no opening bracket '[' in input source
+2019-06-07T14:34:20.237-0400	imported 0 documents
+[as10518@i6 mongoDB]$ mongoimport --db as10518 --collection zips --host class-mongodb.cims.nyu.edu --username as10518 --password SyM75KB8 --type json --file zips.json
+2019-06-07T14:34:28.937-0400	connected to: class-mongodb.cims.nyu.edu
+2019-06-07T14:34:29.390-0400	error inserting documents: E11000 duplicate key error index: as10518.zips.$_id_ dup key: { : "01001" }
+2019-06-07T14:34:29.813-0400	error inserting documents: E11000 duplicate key error index: as10518.zips.$_id_ dup key: { : "35983" }
+2019-06-07T14:34:30.218-0400	error inserting documents: E11000 duplicate key error index: as10518.zips.$_id_ dup key: { : "64642" }
+2019-06-07T14:34:30.218-0400	imported 0 documents
+[as10518@i6 mongoDB]$ mongoimport --db as10518 --collection zips --host class-mongodb.cims.nyu.edu --username as10518 --password SyM75KB8 --type json --file zips.json
+2019-06-07T14:35:18.650-0400	connected to: class-mongodb.cims.nyu.edu
+2019-06-07T14:35:19.117-0400	error inserting documents: E11000 duplicate key error index: as10518.zips.$_id_ dup key: { : "01001" }
+2019-06-07T14:35:19.538-0400	error inserting documents: E11000 duplicate key error index: as10518.zips.$_id_ dup key: { : "35984" }
+2019-06-07T14:35:19.955-0400	error inserting documents: E11000 duplicate key error index: as10518.zips.$_id_ dup key: { : "64643" }
+2019-06-07T14:35:19.955-0400	imported 0 documents
+[as10518@i6 mongoDB]$ clear
+
+[as10518@i6 mongoDB]$ ls
+zips.json
+[as10518@i6 mongoDB]$ cd../
+-i6sh: cd../: No such file or directory
+[as10518@i6 mongoDB]$ cd ../
+[as10518@i6 ~]$ pwd
+/home/as10518
+[as10518@i6 ~]$ ls
+mail  mongoDB  mySQL  perl5  public_html
+[as10518@i6 ~]$ cd mongoDB
+[as10518@i6 mongoDB]$ ls
+zips.json
+[as10518@i6 mongoDB]$ mongo as10518 --host class-mongodb.cims.nyu.edu -u as10518 -p SyM75KB8
+MongoDB shell version: 3.2.0
+connecting to: class-mongodb.cims.nyu.edu:27017/as10518
+> show collections
+system.indexes
+zips
+> db.zips.drop()
+true
+> ^C
+bye
+[as10518@i6 mongoDB]$ mongoimport --db as10518 --collection zips --host class-mongodb.cims.nyu.edu --username as10518 --password SyM75KB8 --type json --file zips.json
+2019-06-07T14:38:04.954-0400	connected to: class-mongodb.cims.nyu.edu
+2019-06-07T14:38:06.530-0400	imported 29353 documents
+[as10518@i6 mongoDB]$ mongo as10518 --host class-mongodb.cims.nyu.edu -u as10518 -p SyM75KB8
+MongoDB shell version: 3.2.0
+connecting to: class-mongodb.cims.nyu.edu:27017/as10518
+> show collections
+system.indexes
+zips
+> db.zips.count({state:"CA”});
+2019-06-07T14:38:56.353-0400 E QUERY    [thread1] SyntaxError: unterminated string literal @(shell):1:21
+
+> db.zips.count({state:"CA"});
+1516
+> db.zips.find({state:"GA",pop:{$gt:0}},{loc:0,state:0}).sort({pop:1}).limit(5);
+{ "_id" : "30346", "city" : "ATLANTA", "pop" : 18 }
+{ "_id" : "30148", "city" : "MARBLE HILL", "pop" : 98 }
+{ "_id" : "31743", "city" : "DE SOTO", "pop" : 112 }
+{ "_id" : "31327", "city" : "SAPELO ISLAND", "pop" : 120 }
+{ "_id" : "31066", "city" : "MUSELLA", "pop" : 121 }
+> db.zips.find({city:"BRONX"},{loc:0,city:0,state:0}).sort({pop:1}).limit(3);
+{ "_id" : "10464", "pop" : 4113 }
+{ "_id" : "10470", "pop" : 13254 }
+{ "_id" : "10474", "pop" : 22823 }
+> db.zips.find({state:{$nin:["AK","PR","HI"]}}).count();
+29078
+> db.zips.find({state:{$in:["NY","NJ","CT"]}}).count();
+2398
+> db.zips.distinct("state");
+[
+	"MA",
+	"RI",
+	"NH",
+	"ME",
+	"VT",
+	"CT",
+	"NY",
+	"NJ",
+	"PA",
+	"DE",
+	"DC",
+	"MD",
+	"VA",
+	"WV",
+	"NC",
+	"SC",
+	"GA",
+	"FL",
+	"AL",
+	"TN",
+	"MS",
+	"KY",
+	"OH",
+	"IN",
+	"MI",
+	"IA",
+	"WI",
+	"MN",
+	"SD",
+	"ND",
+	"MT",
+	"IL",
+	"MO",
+	"KS",
+	"NE",
+	"LA",
+	"AR",
+	"OK",
+	"TX",
+	"CO",
+	"WY",
+	"ID",
+	"UT",
+	"AZ",
+	"NM",
+	"NV",
+	"CA",
+	"HI",
+	"OR",
+	"WA",
+	"AK"
+]
+> db.zips.find({pop:0});
+{ "_id" : "02163", "city" : "CAMBRIDGE", "loc" : [ -71.141879, 42.364005 ], "pop" : 0, "state" : "MA" }
+{ "_id" : "04013", "city" : "BUSTINS ISLAND", "loc" : [ -70.042247, 43.79602 ], "pop" : 0, "state" : "ME" }
+{ "_id" : "05405", "city" : "UNIV OF VERMONT", "loc" : [ -73.2002, 44.477733 ], "pop" : 0, "state" : "VT" }
+{ "_id" : "12922", "city" : "CHILDWOLD", "loc" : [ -74.675878, 44.286715 ], "pop" : 0, "state" : "NY" }
+{ "_id" : "13333", "city" : "EAST SPRINGFIELD", "loc" : [ -74.759741, 42.832947 ], "pop" : 0, "state" : "NY" }
+{ "_id" : "13436", "city" : "RAQUETTE LAKE", "loc" : [ -74.537959, 43.866224 ], "pop" : 0, "state" : "NY" }
+{ "_id" : "15744", "city" : "HAMILTON", "loc" : [ -79.093987, 40.921432 ], "pop" : 0, "state" : "PA" }
+{ "_id" : "19113", "city" : "PHILADELPHIA", "loc" : [ -75.275196, 39.864998 ], "pop" : 0, "state" : "PA" }
+{ "_id" : "23337", "city" : "WALLOPS ISLAND", "loc" : [ -75.506503, 37.827338 ], "pop" : 0, "state" : "VA" }
+{ "_id" : "25139", "city" : "MOUNT CARBON", "loc" : [ -81.333373, 38.160097 ], "pop" : 0, "state" : "WV" }
+{ "_id" : "28528", "city" : "GLOUCESTER", "loc" : [ -76.527627, 34.685645 ], "pop" : 0, "state" : "NC" }
+{ "_id" : "29506", "city" : "QUINBY", "loc" : [ -79.794547, 34.245178 ], "pop" : 0, "state" : "SC" }
+{ "_id" : "30334", "city" : "ATLANTA", "loc" : [ -84.388188, 33.74715 ], "pop" : 0, "state" : "GA" }
+{ "_id" : "31314", "city" : "FORT STEWART", "loc" : [ -81.440489, 31.979085 ], "pop" : 0, "state" : "GA" }
+{ "_id" : "32215", "city" : "CECIL FIELD NAS", "loc" : [ -81.663142, 30.23295 ], "pop" : 0, "state" : "FL" }
+{ "_id" : "36419", "city" : "ALLEN", "loc" : [ -87.66746, 31.624266 ], "pop" : 0, "state" : "AL" }
+{ "_id" : "39269", "city" : "JACKSON", "loc" : [ -90.188503, 32.30085 ], "pop" : 0, "state" : "MS" }
+{ "_id" : "40808", "city" : "BIG LAUREL", "loc" : [ -83.156468, 37.002795 ], "pop" : 0, "state" : "KY" }
+{ "_id" : "42326", "city" : "BROWDER", "loc" : [ -86.978197, 37.259333 ], "pop" : 0, "state" : "KY" }
+{ "_id" : "42555", "city" : "SLOANS VALLEY", "loc" : [ -84.376201, 36.968617 ], "pop" : 0, "state" : "KY" }
+Type "it" for more
+> db.zips.aggregate([ {$match: {} }, {$group: {_id:"$state",pop:{$sum:"$pop"}}},{$sort:{pop:-1}} ]);
+{ "_id" : "CA", "pop" : 29754890 }
+{ "_id" : "NY", "pop" : 17990402 }
+{ "_id" : "TX", "pop" : 16984601 }
+{ "_id" : "FL", "pop" : 12686644 }
+{ "_id" : "PA", "pop" : 11881643 }
+{ "_id" : "IL", "pop" : 11427576 }
+{ "_id" : "OH", "pop" : 10846517 }
+{ "_id" : "MI", "pop" : 9295297 }
+{ "_id" : "NJ", "pop" : 7730188 }
+{ "_id" : "NC", "pop" : 6628637 }
+{ "_id" : "GA", "pop" : 6478216 }
+{ "_id" : "VA", "pop" : 6181479 }
+{ "_id" : "MA", "pop" : 6016425 }
+{ "_id" : "IN", "pop" : 5544136 }
+{ "_id" : "MO", "pop" : 5110648 }
+{ "_id" : "WI", "pop" : 4891769 }
+{ "_id" : "TN", "pop" : 4876457 }
+{ "_id" : "WA", "pop" : 4866692 }
+{ "_id" : "MD", "pop" : 4781379 }
+{ "_id" : "MN", "pop" : 4372982 }
+Type "it" for more
+> 

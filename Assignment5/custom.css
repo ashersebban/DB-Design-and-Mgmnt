@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background-color:#B4D3BB;
+}
+
+	h1{
+		text-align: center;
+		background-color: black;
+		color:white;
+		padding:10px;
+	}
+
+	#mainNav{
+		text-align:center;
+		background-color: black;
+		padding-bottom: 5px
+	}
+		.navBoxes{
+			display:inline-block;
+			width:15%;
+			border: 2px black solid;
+			padding:5px 0px;
+			text-align:center;
+			border:1px white solid;
+		}
+
+			#mainNav ul{
+				list-style-type: none;
+			}
+
+				#mainNav a{
+					color:white;
+					text-decoration: none;
+				}
+					#mainNav a:visited{
+						color:white;
+					}
+					#mainNav a:hover{
+						color:red;
+						font-weight: bold;
+					}
+
+a{
+	color:blue;
+	text-decoration: none;
+}
+
+a:visited{
+	color:blue;
+}
+
+section{
+}
+	section h3{
+		background-color:white;
+		padding:40px;
+		text-align:center;
+	}
+	section div{
+		padding:50px 100px;
+		line-height: 2em;
+		border:1px black solid;
+	}
+	section ul{
+		font-weight:bold;
+		list-style: none;
+	}
+	section li{
+		font-weight: normal;
+	}
+
+#box2{
+	width:100%;
+	height:500px;
+	display:inline-flex;
+	background:url('chess1.jpg') left no-repeat;
+
+}
+
+form{
+	width:50%;
+	margin-left:40px;
+	padding:50px;
+	border-right:2px solid black;
+	border-left:2px solid black;
+	background-color:white;
+}
+
+form p{
+	padding-top: 30px;
+}
+
+#data{
+	width:50%;
+}
+	#data .background{
+		width:100%;
+		height:100%;
+		background: url('chess1.jpg') center no-repeat;
+		background-size:cover;
+	}
+
+#box3{
+    width:100%;
+}
+    h4{
+    	text-align:center;
+        padding:10px;
+        color:white;
+        background-color:black;
+    }
+table, th, td {
+   border: 1px solid green;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even){
+     background-color: #f2ffe5;
+}
+

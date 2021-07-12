@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+	h1{
+		text-align: center;
+		background-color: black;
+		color:white;
+		padding:10px;
+		margin:0px;
+	}
+
+	#mainNav{
+		text-align:center;
+		background-color: black;
+		padding-bottom: 5px
+	}
+		.navBoxes{
+			display:inline-block;
+			width:15%;
+			border: 2px black solid;
+			padding:5px 0px;
+			text-align:center;
+			border:1px white solid;
+		}
+
+			#mainNav ul{
+				list-style-type: none;
+			}
+
+				#mainNav a{
+					color:white;
+					text-decoration: none;
+				}
+					#mainNav a:visited{
+						color:white;
+					}
+					#mainNav a:hover{
+						color:red;
+						font-weight: bold;
+					}
+
+#Assignments{
+	background-color: white;
+	border:2px black solid;
+	width:200px;
+
+}
+	#Assignments h2{
+		padding:10px;
+		text-align: center;
+		color:red;
+		border-bottom: 2px black solid
+	}
+
+	#Assignments ul{
+		list-style-type: none;
+
+	}
+		#Assignments li{
+			padding:10px;
+			text-align:center;
+			border-bottom: 1px grey dotted;
+		}
+		.live{
+			color:blue;
+					
+				}
+			#Assignments a{
+				text-decoration: none;
+			}
+				#Assignments a{
+					color:inherit;
+					
+				}
+				#Assignments a:visited{
+					color:inherit;
+					
+				}
+				#Assignments a:hover{
+					font-weight: bold;
+				}
